@@ -34,7 +34,7 @@ export class MapService {
 		L.tileLayer('https://api.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
 			maxZoom: 18,
-			id: 'mapbox.satellite',
+			id: 'mapbox.dark',
 			accessToken: apiToken
 		}).addTo(map);
 
