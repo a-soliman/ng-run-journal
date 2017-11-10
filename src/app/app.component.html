@@ -1,5 +1,12 @@
-<h1>
-  {{ title }}
-</h1>
+<div class="container">
+	<nav class="navbar navbar-custom">
+		<a href="#" class="navbar-brand">
+			<p class="logo">{{ title }}</p>
+		</a>
+	</nav>
 
-<app-activity-list></app-activity-list>
+	<div class="container">
+		<router-outlet></router-outlet>
+	</div>
+
+</div>
